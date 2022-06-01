@@ -1,36 +1,35 @@
-import React from "react";
-import Card from "react-bootstrap/Card";
-import { ImPointRight } from "react-icons/im";
+import React from 'react';
+import Card from 'react-bootstrap/Card';
+import { ImPointRight } from 'react-icons/im';
 
 function AboutCard() {
   return (
-    <Card className="quote-card-view">
+    <Card className='quote-card-view'>
       <Card.Body>
-        <blockquote className="blockquote mb-0">
-          <p style={{ textAlign: "justify" }}>
-            Hi Everyone, I am <span className="purple">Abhishek Dewangan </span>
-            from <span className="purple">Bilaspur, Chhattisgarh, India</span>
-
+        <blockquote className='blockquote mb-0'>
+          <p style={{ textAlign: 'justify' }}>
+            Hi Everyone, I am <span className='purple'>Abhishek Dewangan </span>
+            from <span className='purple'>Bilaspur, Chhattisgarh, India</span>
             <br />
             <br />
             Apart from coding, some other activities that I love to do!
           </p>
           <ul>
-            <li className="about-activity">
+            <li className='about-activity'>
               <ImPointRight /> Playing Games
             </li>
-            <li className="about-activity">
-              <ImPointRight /> Writting Tech Blogs
-            </li>
-            <li className="about-activity">
+            <li className='about-activity'>
               <ImPointRight /> Travelling
+            </li>
+            <li className='about-activity'>
+              <ImPointRight /> Listening to music
             </li>
           </ul>
 
-          <p style={{ color: "rgb(155 126 172)" }}>
-            "Strive to build things that make a difference!"{" "}
+          <p style={{ color: 'rgb(155 126 172)' }}>
+            "Strive to build things that make a difference!"{' '}
           </p>
-          <footer className="blockquote-footer">Abhishek Dewangan</footer>
+          <footer className='blockquote-footer'>Abhishek Dewangan</footer>
         </blockquote>
       </Card.Body>
     </Card>
