@@ -24,8 +24,9 @@ function Projects() {
               imgPath={bigbasket}
               isBlog={false}
               title="Bigbasket"
-              description="bigbasket.com allows you to walk away from the drudgery of grocery shopping and welcome an easy relaxed way of browsing and shopping for groceries. Discover new products and shop for all your food and grocery needs from the comfort of your home or office. No more getting stuck in traffic jams, paying for parking , standing in long queues and carrying heavy bags – get everything you need, when you need, right at your doorstep. Food shopping online is now easy as every product on your monthly shopping list, is now available online at bigbasket.com, India’s best online grocery store!"
-              link="https://github.com/callmeabhi1997/Big-Basket"
+              description="Big Basket is one of the largest online grocery super market in India. Tech stack and tools we have used to clone this website are HTML, CSS, JavaScript, Bootstrap and Swiper JS"
+              gitLink="https://github.com/callmeabhi1997/Big-Basket"
+              deployLink="https://bigbasket-clone26.netlify.app/"
             />
           </Col>
 
@@ -34,8 +35,9 @@ function Projects() {
               imgPath={indianmart}
               isBlog={false}
               title="Indiamart-Clone"
-              description="IndiaMART is India’s largest online marketplace connecting buyers and suppliers. The online channel focuses on providing a platform to SMEs, large enterprises as well as individuals. Founded in 1996, the company’s mission is ‘to make doing business easy’."
-              link="https://github.com/callmeabhi1997/Indiamart-Clone"
+              description="IndiaMART is India’s largest online B2B marketplace, connecting buyers with suppliers. Used tech stack and tools are HTML, CSS, JavaScript, React, Redux, Bootstrap and Material UI’."
+              gitLink="https://github.com/callmeabhi1997/Indiamart-Clone"
+              deployLink="https://india-mart-clone.netlify.app/"
             />
           </Col>
 
@@ -44,8 +46,9 @@ function Projects() {
               imgPath={sephora}
               isBlog={false}
               title="Sephora Project"
-              description="Online code and markdown editor build with react.js. Online Editor which supports html, css, and js code with instant view of website. Online markdown editor for building README file which supports GFM, Custom Html tags with toolbar and instant preview.Both the editor supports auto save of work using Local Storage"
-              link="https://github.com/callmeabhi1997/SephoraProject"
+              description="Sephora is a French multinational retailer of personal care and beauty products. Tech stack and tools we have used to clone this website are HTML, CSS, JavaScript"
+              gitLink="https://github.com/callmeabhi1997/SephoraProject"
+              deployLink="https://suspicious-mccarthy-90cb20.netlify.app/"
             />
           </Col>
 

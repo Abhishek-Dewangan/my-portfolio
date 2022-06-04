@@ -1,6 +1,6 @@
 import React from 'react';
 import { Container, Row, Col } from 'react-bootstrap';
-import myImg from '../../Assets/avatar.svg';
+import myImg from '../../Assets/Profile.jpg';
 import Tilt from 'react-parallax-tilt';
 import {
   AiFillGithub,
@@ -36,7 +36,7 @@ function Home2() {
                 <b className='purple'>Web Technologies and Products </b> and
                 also in areas related to{' '}
                 <b className='purple'>
-                  Deep Learning and Natural Launguage Processing.
+                  Learning and Natural Launguage Processing.
                 </b>
               </i>
               <br />
@@ -51,13 +51,18 @@ function Home2() {
               </i>
               &nbsp; like
               <i>
-                <b className='purple'> React.js and Next.js</b>
+                <b className='purple'> React.js</b>
               </i>
             </p>
           </Col>
           <Col md={4} className='myAvtar'>
             <Tilt>
-              <img src={myImg} className='img-fluid' alt='avatar' />
+              <img
+                src={myImg}
+                style={{ borderRadius: '50%' }}
+                className='img-fluid'
+                alt='avatar'
+              />
             </Tilt>
           </Col>
         </Row>
